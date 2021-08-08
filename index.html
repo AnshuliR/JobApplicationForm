@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application Form</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+        <br><br>
+        <div class="wrapper">
+            <div class="title">
+                Job Application Form
+            </div>
+            <form>
+                <div class="inputfield">
+                    <label>First Name:</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Last Name:</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="inputfield terms">
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="Male"class="input" >
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" class="input">
+                    <label for="female">Female</label>
+                    <input type="radio" id="transgender" name="gender" value="Transgender" class="input" >
+                    <label for="transgender">Transgender</label>
+                </div>
+                <div class="inputfield">
+                    <label>Email Address:</label>
+                    <input type="email" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Password:</label>
+                    <input type="password" class="input" minlength="8">
+                </div>
+                <div class="inputfield">
+                    <label>Phone Number:</label>
+                    <input type="number" class="input">
+                </div>
+                <div class="inputfield">
+                    <label>Address:</label>
+                    <textarea class="textarea"></textarea>
+                </div>
+                <div class="inputfield terms">
+                    <label>Skills:</label><BR>
+                    <input type="checkbox" id="html" name="skill1" value="Html" class="input">
+                    <label for="skill1"> HTML</label>
+                    <input type="checkbox" id="css" name="skill2" value="Css" class="input">
+                    <label for="skill2"> CSS</label>
+                    <input type="checkbox" id="javascript" name="skill3" value="Javascript" class="input">
+                    <label for="skill3"> JAVASCRIPT</label>
+                </div>
+                <div class="inputfield">
+                    <label>Upload your Resume:</label><br>
+                    <input type="file" name="file" class="input">
+                </div>
+                <div class="inputfield">
+                    <input type="submit" value="Submit" class="btn">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
